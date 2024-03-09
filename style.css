@@ -1,0 +1,61 @@
+.button-github {
+    font-family: "M PLUS Rounded 1c";
+    font-weight: bold;
+    position: absolute;
+    top: 225px;
+    left: 300px;
+    background: #24115081;
+    color: #ffffff;
+    display: block;
+    padding: 2px 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+    border-radius: 7px; 
+}
+.button-telegram {
+    font-family: "M PLUS Rounded 1c";
+    font-weight: bold;
+    position: absolute;
+    top: 255px;
+    left: 300px;
+    background: #24115081;
+    color: #ffffff;
+    display: block;
+    padding: 2px 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+    border-radius: 7px; 
+}
+.button-youtube {
+    font-family: "M PLUS Rounded 1c";
+    font-weight: bold;
+    position: absolute;
+    top: 285px;
+    left: 300px;
+    background: #24115081;
+    color: #ffffff;
+    display: block;
+    padding: 2px 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+    border-radius: 7px; 
+}
+h1 {
+    font-family: "M PLUS Rounded 1c";
+    position: absolute;
+    top: 140px;
+    left: 250px;
+}
+p {
+    font-family: "M PLUS Rounded 1c";
+    font-weight: bold;
+    position: absolute;
+    top: 185px;
+    left: 230px;
+}
+body {
+background-image: url("background.png")
+}
