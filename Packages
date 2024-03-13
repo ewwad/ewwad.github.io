@@ -1,0 +1,14 @@
+Package: com.yan.fiona
+Name: Fiona
+Description: Floating Tab bar for iOS devices.
+Maintainer: yan
+Author: yan
+Section: Tweaks
+Icon: https://yandevelop.github.io/assets/icons/fiona/icon.png
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Installed-Size: 536
+Filename: debs//com.yan.fiona_1.0.3_iphoneos-arm64.deb
+MD5sum: 0bf91b56cb706d07c05dfa40026c4163
+SHA1: 1b1b4f3e4996448748211676aecc6d3364ae51
