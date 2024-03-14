@@ -3,7 +3,7 @@
     src: url("SF-Pro-Rounded-Regular.ttf");
   }
 body {
-    background: linear-gradient(1000deg, rgb(171, 117, 228), rgb(66, 51, 114));
+    background: linear-gradient(1000deg, rgb(144, 54, 240), rgb(21, 0, 90));
     font-family: "SF Pro Rounded Regular";
     color: #ffffff85;
     background-position: 0 0;
@@ -60,7 +60,7 @@ p {
 }
 
 .baner{
-    background: rgba(252, 254, 255, 0.11);
+    background: rgba(252, 254, 255, 0.075);
     padding: 3.5vw;
     border-radius: 15px;
 
