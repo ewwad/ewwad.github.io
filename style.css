@@ -29,7 +29,7 @@ p {
     border-radius: 9px;
     background: #000000;
     padding: 10px;
-    margin: 5px;
+    margin: 6px;
     width: 50%;
     font-weight: bold;
     color: white;
@@ -84,23 +84,3 @@ p {
     display: -webkit-flex;
     /* flex-wrap: wrap; */
 }
-
-/* .incenter{
-    margin-top: 10%;
-    padding: 100px;
-    text-align: center;
-
-
-    border-radius: 5px;
-    max-width: 500px;
-
-    padding: 3.5vw;
-    border-width: 5px 0;
-    box-sizing: border-box;
-    display: flex;
-    display: -webkit-flex;
-    flex-wrap: wrap;
-    background: rgba(252, 254, 255, 0.11);
-        background-color: #FFF;
-        vertical-align: baseline;
-} */
