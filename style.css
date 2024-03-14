@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "Arial Rounded Bold";
-    src: url("Arial Rounded Bold.ttf");
+    font-family: "SF Pro Rounded Regular";
+    src: url("SF-Pro-Rounded-Regular.ttf");
   }
 body {
     background: linear-gradient(1000deg, rgb(171, 117, 228), rgb(66, 51, 114));
-    font-family: "Arial Rounded Bold";
-    color: #FFF;
+    font-family: "SF Pro Rounded Regular";
+    color: #ffffff85;
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100% 900%;
@@ -22,27 +22,27 @@ h1 {
 
 p {
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .sileo {
     border-radius: 9px;
-    background: #000000;
+    background: #00000085;
     padding: 10px;
-    margin: 6px;
+    margin: 5px;
     width: 50%;
     font-weight: bold;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 } 
 .zebra {
     border-radius: 9px;
-    background: #000000;
+    background: #00000085;
     width: 50%;
     margin: 5px;
     padding: 10px;
     font-weight: bold;
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
 }
 
