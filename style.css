@@ -22,20 +22,12 @@ h1 {
 
 p {
     font-weight: bold;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
-.sileo {
-    border-radius: 9px;
-    background: #00000085;
-    padding: 10px;
-    margin: 5px;
-    width: 50%;
-    font-weight: bold;
-    color: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
-} 
-.zebra {
+
+.zebra, .sileo{
     border-radius: 9px;
     background: #00000085;
     width: 50%;
@@ -44,6 +36,7 @@ p {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
+    display: block;
 }
 
 .content{
@@ -58,31 +51,35 @@ p {
 
 
 }
-
+button{
+    align-items: center;
+    border: none;
+    display: block;
+}
 .baner{
     background: rgba(252, 254, 255, 0.075);
     padding: 3.5vw;
     border-radius: 15px;
 
 }
-
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
 .addrepo{
-
+    display: block;
     line-height: 30px;
     text-align: center;
-  
-
+    position: relative;
+    
     width: 100%;
 
-    display: block;
+
     margin: 0 auto;
 
     border-radius: 5px;
     max-width: 500px;
-    box-sizing: border-box;
-    display: flex;
-    display: -webkit-flex;
-    /* flex-wrap: wrap; */
+
 }
 
 /* .incenter{
