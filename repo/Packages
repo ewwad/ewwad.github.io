@@ -66,16 +66,16 @@ Author: Snail <mu514983786@gmail.com>
 Name: 蜗牛自适应+锁定120 Always120
 
 Package: com.yan.fiona
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm64
 Maintainer: yan
-Installed-Size: 536
+Installed-Size: 560
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
-Filename: ../debs/com.yan.fiona_1.0.3_iphoneos-arm64.deb
-Size: 114894
-MD5sum: 0bf91b56cb706d07c05dfa40026c4163
-SHA1: 1b1b4f3e4996448748211676aecc6d3364ae513e
-SHA256: 3066c164c605ef088569522619d66387cb4a28f39db905110e17676b4486bb9c
+Filename: ../debs/com.yan.fiona_1.0.4_iphoneos-arm64.deb
+Size: 118660
+MD5sum: 3fb4a205e2d3e44fcc21257aac14e538
+SHA1: cceaadcebd925da6fcf68838b2c4817acc1a453d
+SHA256: 948312971a0aa3fe562b1aa1ada68c0609f76acf33ccea2e1b631809f2d94cff
 Section: Tweaks
 Description: Floating Tab bar for iOS devices.
 Author: yan
