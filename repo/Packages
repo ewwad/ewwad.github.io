@@ -1,10 +1,70 @@
+Package: Flex3beta
+Version: 1:3~Beta61
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: ./debs/Flex3beta_Beta61-rootless.deb
+Size: 15180584
+MD5sum: 3e075c96986f5ad41307f7aead5de87b
+SHA1: 29dbfac67d294e7f2a93b8cad582dcca46a55692
+SHA256: c7de7824f083d216ba0cbd609523e678020df232c23b2ee8d636d4a789bbf3cd
+Section: rootless插件
+Description: Develop your own tweaks and share them on the Flex Community Cloud，当前应用不可解析，等待更新，无需Legacy arm64e Support和去路径添加bundle，你可以脱壳主程序解析凑合用，或者用云端补丁，也可以别的手机解析文档过渡一下.
+Author: John Coates
+Name: Flex 3 Beta-rootless
+Recommended: com.rpetrich.rocketbootstrap
+
+Package: com.afnanahmad.chromahomebarx
+Version: 0.4
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 642
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, firmware (<< 15.0) | cy+cpu.arm64v8 | oldabi
+Filename: ./debs/com.afnanahmad.chromahomebarx_0.4_iphoneos-arm64.deb
+Size: 83836
+MD5sum: c54700bf9e480c02fea71e88b7f1ba15
+SHA1: 540e9403fbff44d09154920ec445b4dcc75635db
+SHA256: b1cab37b5ac710bd4478cf5696c5ff413540836639f369a380a2cb9a71294025
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Description: Razer Chroma insprird HomeBar coloring tweak for iPhone X, also works with LittleX.
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: Afnan Ahmad <afnanahmaddd@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Dev: afnanahmad
+Icon: http://cydia.saurik.com/icon@2x/com.afnanahmad.chromahomebarx.png
+Name: ChromaHomeBarX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.anth0pak.lastlook
+Version: 4.0.3
+Architecture: iphoneos-arm64
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Installed-Size: 1452
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: ./debs/com.anth0pak.lastlook_4.0.3_iphoneos-arm64.deb
+Size: 415744
+MD5sum: 2ea114d512528116824f4f97a0e99b5b
+SHA1: 8536a81e9d5e5776e5d30d557a0247b55e116703
+SHA256: d3a244c00306d227aba1da11fd4e0166f15f814a980f0f3224ec7558b29a909f
+Section: Tweaks
+Description: An AOD tweak that feels stock, with endless possibilities!
+Tag: cydia::commercial, compatible_min::ios12.0
+Author: AnthoPak <anthopakdev@gmail.com>
+Depiction: https://chariz.com/buy/lastlook
+Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
+Name: LastLook
+
 Package: com.anthopak.lastlook
 Version: 4.0.3
 Architecture: iphoneos-arm64
 Maintainer: AnthoPak <anthopakdev@gmail.com>
 Installed-Size: 1452
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
-Filename: ../debs/com.anthopak.lastlook_4.0.3_iphoneos-arm64.deb
+Filename: ./debs/com.anthopak.lastlook_4.0.3_iphoneos-arm64.deb
 Size: 416072
 MD5sum: 4da38d9a3b0409809e316a0f504679ce
 SHA1: 09a4195ec3ec5de04ccfda3f0c7721e42add76e4
@@ -17,20 +77,91 @@ Depiction: https://chariz.com/buy/lastlook
 Icon: https://img.chariz.cloud/icon/lastlook/icon@3x.png
 Name: LastLook
 
+Package: com.check0ver.ViolaDarkRootless
+Version: 1.9.3
+Architecture: iphoneos-arm64
+Maintainer: bossgfx
+Filename: ./debs/com.check0ver.ViolaDarkRootless_1.9.3.deb
+Size: 32885228
+MD5sum: 5333e9aad7656381a197d411b2417714
+SHA1: 34dfcca6398e401d715e2dd5abd92dc99c4907a5
+SHA256: e09264aafff288f078c6adcabb937e09ddb0d38de43baf70c610c29ab49cd5a1
+Section: Themes
+Description: For OLED devices & Black lovers!
+Author: Bousrih
+Icon: https://check0ver.com/icon/icon1.png
+Name: Viola Dark Rootless
+
+Package: com.dcproducts.iossecuritysuitebypass
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Derek Calabro
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.dcproducts.iossecuritysuitebypass_v1.0.0_iphoneos-arm64.deb
+Size: 2508
+MD5sum: 3ef90ef91bca136ef5f92cb9f4706da4
+SHA1: 806a6ad9cea47a09c6c8dc92a2798ce619dd5f19
+SHA256: 78523cbbb67a11043be7238c2ca535f8e8835d7244096d8c8a729fca3139a825
+Section: Tweaks
+Description: A bypass for the iOSSecuritySuite Swift library.
+Author: Derek Calabro
+Depiction: https://dtcalabro.github.io/repo/depictions/?p=com.dcproducts.iossecuritysuitebypass
+Icon: https://dtcalabro.github.io/repo/depictions/com.dcproducts.iossecuritysuitebypass/icon.png
+Name: iOSSecuritySuiteBypass
+Sileodepiction: https://dtcalabro.github.io/repo/depictions/com.dcproducts.iossecuritysuitebypass/depiction.json
+
+Package: com.kdt.trollpad
+Version: 1.2.3
+Architecture: iphoneos-arm64
+Maintainer: khanhduytran0
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: ./debs/com.kdt.trollpad_1.2.3_iphoneos-arm64.deb
+Size: 27884
+MD5sum: a6c17ca8153def61a0b1a5c066167fc6
+SHA1: 0916638a3d06e7d5bd33bd61bc43a364b716447f
+SHA256: 4126f6e4ddfb94eff575ec2728e7630492f40888628b2fff7326dfc9d055b728
+Section: Tweaks
+Description: Troll SpringBoard into thinking it's running on iPadOS.
+Author: khanhduytran0
+Depiction: https://khanhduytran0.github.io/repo/depictions/web/?p=com.kdt.trollpad
+Icon: https://raw.githubusercontent.com/khanhduytran0/TrollPad/main/TrollPadPrefs/Resources/Icon%403x.png
+Name: TrollPad
+Sileodepiction: https://khanhduytran0.github.io/repo/depictions/native/com.kdt.trollpad/depiction.json
+
+Package: com.mtac.alpine
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 1112
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common
+Filename: ./debs/com.mtac.alpine_1.4_iphoneos-arm64.deb
+Size: 601876
+MD5sum: cb99dffd420fbcf3d6e79dd75e6795c6
+SHA1: b464e32776a977172ca554dd6533c19954051ae5
+SHA256: 98be8580f95d7ca032a8577a36658fd04478608a7d90a7662ecd9f0446d0e4e0
+Section: Tweaks
+Description: tvOS alerts for iOS
+Author: MTAC
+Icon: https://media.havoc.app/64ae21880d54f9113bc13a59?w=3840&q=75
+Name: Alpine
+
 Package: com.mtac.lynxtwo
 Version: 2.5
 Architecture: iphoneos-arm64
 Maintainer: MTAC
 Installed-Size: 2604
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ../debs/com.mtac.lynxtwo_2.5_iphoneos-arm64.deb
-Size: 566612
-MD5sum: 2a1a42ce2a25d16e64836f2d6bfa5c2f
-SHA1: 322ca73cc349910a6b4a9432e6f6f6ea807be841
-SHA256: 29f9ae88eb214f2a004dbf17136d429e95508ad3d4ebeb7f15dd597c6a00b941
+Filename: ./debs/com.mtac.lynxtwo_2.5_iphoneos-arm64.deb
+Size: 567572
+MD5sum: 06d208cbfa89d736b71571a29f615b3d
+SHA1: 3f5dbe534d5b1d560c860e43bfc39874a811d246
+SHA256: 7db7d6c2b4754195f39120121d55e8736104584eaa23c82be13f794f01e090b2
 Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
+Icon: https://media.havoc.app/64a1d7f9351a82652447cb09?w=3840&q=75
 Name: Lynx 2
 
 Package: com.nahtedetihw.airpodscompanion
@@ -39,14 +170,15 @@ Architecture: iphoneos-arm64
 Maintainer: Ethan Whited
 Installed-Size: 1060
 Depends: preferenceloader
-Filename: ../debs/com.nahtedetihw.airpodscompanion_1.2_iphoneos-arm64.deb
-Size: 461016
-MD5sum: bb070caac2d00b72f15377ba43da5b3b
-SHA1: 0b1c17a54eeadad17933c9221e33ce283a6c2952
-SHA256: 9a9a1095a608b4a2a0d9cf0e0d0f5960d903facb4fe243aa9a6839e3720dd2fd
+Filename: ./debs/com.nahtedetihw.airpodscompanion_1.2_iphoneos-arm64.deb
+Size: 460480
+MD5sum: c91899dc33f77a3dc8de9ab6a9c6b836
+SHA1: 27cb7b9bfbb7a87809c2e790ff9c0b1a81863970
+SHA256: 9c237cd030adb0a35793d3d285339d83c13ec98dbed350c54a8aa6ec1ca30c4e
 Section: Tweaks
 Description: Floating Noise Cancellation control next to volume slider
 Author: Ethan Whited
+Icon: https://media.havoc.app/65e4177bc97a362fa842d940?w=3840&q=75
 Name: AirpodsCompanion
 
 Package: com.snail.always120.global
@@ -55,15 +187,33 @@ Architecture: iphoneos-arm64
 Maintainer: Snail <mu514983786@gmail.com>
 Installed-Size: 728
 Depends: mobilesubstrate (>= 0.9.5000),preferenceloader,com.opa334.altlist
-Filename: ../debs/com.snail.always120.global_1.1.4_iphoneos-arm64.deb
-Size: 176262
-MD5sum: 6b57e6eac7a78328e6f6d735d74aa57b
-SHA1: 1c8f15f42b9cb1829580076074fe03188a140774
-SHA256: a867b6bf52bc8c642450bdea09b2e80828d8358ec895be6381638fe46a6a40b9
+Filename: ./debs/com.snail.always120.global_1.1.4_iphoneos-arm64.deb
+Size: 169892
+MD5sum: 2abbaefb970061f1379bae77d01aba76
+SHA1: 0e2395c653d0f5cbfa2cd65e291b4009293e2ecd
+SHA256: 0b916495f22870c617b8b42575e077cb2cf97de4287d2cafa843fc944ef4e585
 Section: Tweaks
 Description: 使iOS 15越狱高刷机型自适应/锁定120HZ。 Make iOS 15 ProMotion Devices auto-adpat/reach to 120Hz.
 Author: Snail <mu514983786@gmail.com>
+Icon: https://media.havoc.app/64ab7404d8f6312267aee7f5?w=3840&q=75
 Name: 蜗牛自适应+锁定120 Always120
+
+Package: com.yan.fiona
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: ./debs/com.yan.fiona_1.0.3_iphoneos-arm64.deb
+Size: 114894
+MD5sum: 0bf91b56cb706d07c05dfa40026c4163
+SHA1: 1b1b4f3e4996448748211676aecc6d3364ae513e
+SHA256: 3066c164c605ef088569522619d66387cb4a28f39db905110e17676b4486bb9c
+Section: Tweaks
+Description: Floating Tab bar for iOS devices.
+Author: yan
+Icon: https://yandevelop.github.io/assets/icons/fiona/icon.png
+Name: Fiona
 
 Package: com.yan.fiona
 Version: 1.0.4
@@ -71,7 +221,7 @@ Architecture: iphoneos-arm64
 Maintainer: yan
 Installed-Size: 560
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
-Filename: ../debs/com.yan.fiona_1.0.4_iphoneos-arm64.deb
+Filename: ./debs/com.yan.fiona_1.0.4_iphoneos-arm64.deb
 Size: 118660
 MD5sum: 3fb4a205e2d3e44fcc21257aac14e538
 SHA1: cceaadcebd925da6fcf68838b2c4817acc1a453d
@@ -82,19 +232,38 @@ Author: yan
 Icon: https://yandevelop.github.io/assets/icons/fiona/icon.png
 Name: Fiona
 
+Package: dev.theos.orion14
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 484
+Depends: firmware (>= 14.0), firmware (<< 17.7), mobilesubstrate (>= 0.9.5000)
+Provides: dev.theos.orion (= 1.0.1)
+Filename: ./debs/dev.theos.orion14_1.0.1_iphoneos-arm64.deb
+Size: 93448
+MD5sum: 3be61001704fbdeb209b606786446c49
+SHA1: a3de2d7788326e7c03399c4bec9f224f19cf5157
+SHA256: b83251c44e0bfc3c5b2d0c1919585152bcc8451996295b22bf57cc790558e3ef
+Section: System
+Description: Runtime for tweaks built using Orion and Swift, iOS 17 supported
+Tag: role::developer
+Author: Theos Team <theos@kabiroberai.com>
+Name: Orion (iOS 14-17)
+
 Package: ovh.exerhythm.cardculator
 Version: 2.1.1
 Architecture: iphoneos-arm64
 Maintainer: sourcelocation
 Installed-Size: 920
 Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.ccsupport (>= 1.3.7), com.ginsu.comet
-Filename: ../debs/ovh.exerhythm.cardculator_2.1.1_iphoneos-arm64.deb
-Size: 122432
-MD5sum: 68f159140c8a0e23dcfffe6320478f13
-SHA1: f374f394b8ae9ec855cec1af92d7f9589405b976
-SHA256: 41aa55a18e86ec902e2a10f7649ad06f43f8db4a177d8deacf8d3070d6059da7
+Filename: ./debs/ovh.exerhythm.cardculator_2.1.1_iphoneos-arm64.deb
+Size: 122692
+MD5sum: 5816e5011a297b6a5d86de9d79d91eab
+SHA1: c2e2e2303d9720e6e16e538fe11c7ab1bb8877ce
+SHA256: 330aaec80239ea775cc23c7b0415c822d64ac52e3ca99c2b4675ee6a7766575b
 Section: Tweaks
 Description: Calculator, but smaller
 Author: sourcelocation
+Icon: https://media.havoc.app/627ad1f664d09c07d4a40439?w=3840&q=75
 Name: Cardculator
 
