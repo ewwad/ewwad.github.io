@@ -1,0 +1,22 @@
+$font-color: #ffffff;
+@media (prefers-color-scheme:dark) {
+    
+
+    body {
+        background: linear-gradient(1000deg, rgb(144, 54, 240), rgb(21, 0, 90));
+    }
+
+    .zebra, .sileo{
+        background: #00000085;
+        
+    }
+
+    a,h1,p{
+        color:$font-color;
+    }
+
+    .baner{
+        background: rgba(252, 254, 255, 0.075);
+    }
+
+}
