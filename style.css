@@ -1,1 +1,30 @@
-@media (prefers-color-scheme:dark){body{background:linear-gradient(1000deg,rgb(144,54,240),rgb(21,0,90))}.sileo,.zebra{background:rgba(0,0,0,0.5215686275)}a,h1,p{color:#ffffff}.baner{background:rgba(252,254,255,0.075)}}@media (prefers-color-scheme:light){body{background:linear-gradient(1000deg,rgb(138,196,41) 0%,rgb(255,177,52));color:#ffffff}.sileo,.zebra{background:rgba(225,225,225,0.5254901961);color:rgba(255,255,255,0.5)}a,h1,p{color:#000000}.baner{background:rgba(252,254,255,0.112)}}@font-face{font-family:"SF Pro Rounded Regular";src:url("SF-Pro-Rounded-Regular.ttf")}body{font-family:"SF Pro Rounded Regular";background-position:0 0;background-repeat:no-repeat;background-size:100% 900%}h1{text-align:center}p{font-weight:bold;font-size:20px;margin-bottom:20px}.addrepo{display:block;line-height:30px;text-align:center;position:relative;width:100%;margin:0 auto;border-radius:5px;max-width:500px;font-family:"SF Pro Rounded Regular"}a{text-decoration:none}.sileo,.zebra{border-radius:9px;width:50%;margin:5px;padding:10px;font-weight:bold;color:rgba(255,255,255,0.933);text-decoration:none;display:block}button{-webkit-box-align:center;-ms-flex-align:center;align-items:center;border:none;display:block}.baner{padding:3.5vw;border-radius:15px}.content{-ms-flex-line-pack:center;align-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;margin-left:10%;margin-right:10%}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(1000deg, rgb(144, 54, 240), rgb(21, 0, 90));
+  }
+  .zebra, .sileo {
+    background: rgba(0, 0, 0, 0.5215686275);
+  }
+  a, h1, p {
+    color: #ffffff;
+  }
+  .baner {
+    background: rgba(252, 254, 255, 0.075);
+  }
+}
+@media (prefers-color-scheme: light) {
+  body {
+    background: linear-gradient(1000deg, rgb(138, 196, 41) 0%, rgb(255, 177, 52));
+    color: #ffffff;
+  }
+  .zebra, .sileo {
+    background: rgba(225, 225, 225, 0.5254901961);
+    color: rgba(255, 255, 255, 0.5);
+  }
+  p, a, h1 {
+    color: #000000;
+  }
+  .baner {
+    background: rgba(252, 254, 255, 0.112);
+  }
+}
